@@ -18,9 +18,9 @@ export class Cylinder extends Circle {
         return 2 * super.getArea() + super.getPerimeter() * this._height;
     }
 
-    // getPerimeter(): number {
-    //     return Infinity;
-    // }
+    getPerimeter(): number {
+        return Infinity;
+    }
 
     getVolume(): number {
         return super.getArea() * this._height;
